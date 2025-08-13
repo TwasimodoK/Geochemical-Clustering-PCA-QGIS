@@ -131,6 +131,42 @@ When plotted on a map:
 ---
 
 
+## 🗺 Geospatial Visualization & QGIS Integration
+
+<img width="1062" height="439" alt="Screenshot 2025-08-14 031537" src="https://github.com/user-attachments/assets/69f173a9-aa1a-48f4-9953-bcac4f89ea43" />
+
+
+After performing **PCA** and **K-Means clustering** on the geochemical dataset, results were mapped to geographic coordinates (Latitude, Longitude) using **GeoPandas** and **Shapely**.
+
+The notebook generates:
+
+* **Clustered scatter plot** (PCA space)
+* **Geospatial cluster map** (real-world locations)
+* **Exported files** for QGIS:
+
+  * `geochem_clusters.geojson` (GeoJSON format)
+  * `geochem_clusters.shp` (ESRI Shapefile)
+
+These files can be directly imported into **QGIS** for further analysis, styling, and overlay with geological layers.
+
+**Code snippet for export:**
+
+```python
+gdf = gpd.GeoDataFrame(
+    df_pca_full,
+    geometry=[Point(xy) for xy in zip(df_pca_full['Longitude'], df_pca_full['Latitude'])],
+    crs="EPSG:4326"
+)
+gdf.to_file("geochem_clusters.geojson", driver="GeoJSON")
+gdf.to_file("geochem_clusters.shp", driver="ESRI Shapefile")
+```
+
+**Example Output in QGIS:**
+Clusters are displayed with unique colors, highlighting anomalous zones potentially linked to mineralization.
+
+
+---
+
 ## 📌 Requirements
 
 * Python 3.9+
