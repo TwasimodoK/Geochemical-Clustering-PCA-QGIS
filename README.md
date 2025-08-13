@@ -16,15 +16,21 @@ Finally, the results are visualised **spatially in QGIS**.
 
 ## 🗂 Dataset
 
-* **Source:** Geological survey geochemistry dataset (CSV + shapefiles)
-* **Columns Used for Analysis:**
+**Title**: *Global Geochemical Database for Critical Minerals in Archived Mine Samples* (USGS)  
+**Citation**: Granitto, M. _et al._, 2020. *Global Geochemical Database for Critical Minerals in Archived Mine Samples: U.S. Geological Survey data release*. DOI: [10.5066/P9Z3XL6D](https://doi.org/10.5066/P9Z3XL6D).
 
-  * **Sample\_ID, Latitude, Longitude**
-  * Element concentrations in **percent** (e.g., `Al_pct`, `Fe_pct`) and **ppm** (e.g., `Au_ppm`, `Cu_ppm`).
-* **Missing Value Handling:**
+**Summary**:  
+Contains geochemical and geological information for historic ore and ore-related rock samples from both the U.S. and 27 additional countries across major continents. Originating from the USGS “Quick Assessment of Rare and Critical Metals in Ore Deposits” project (2008–2013), the dataset supports critical mineral potential assessments and ore system modeling.
 
-  * Dropped rows with missing coordinates
-  * Filled missing elemental values using the **median** (`SimpleImputer(strategy='median')`)
+| Attribute          | Details                                         |
+|-------------------|--------------------------------------------------|
+| **Timeframe**     | Sample collection: June 11 2011 – August 1 2017; Publication: June 23 2020 |
+| **Formats**       | `.csv`, `.xlsx`, `.accdb`, metadata `.xml`/`.txt`, data dictionary `.csv`/`.xlsx`, shapefiles, and ArcGIS map service definitions |
+| **Geographic Scope** | U.S. (multiple states) & 27 countries including Argentina, Australia, Brazil, China, India, Norway, Peru, South Africa, Sweden, Zambia, etc. |
+| **Purpose**       | To assess previously mined ore deposits for critical minerals and support mineral resource evaluation efforts. |
+
+You can explore and access the dataset via the USGS ScienceBase portal.
+
 
 ---
 
