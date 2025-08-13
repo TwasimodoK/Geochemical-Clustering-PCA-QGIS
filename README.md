@@ -1,31 +1,6 @@
 # Geochemical-Clustering-PCA-QGIS
 PCA + KMeans clustering of geochemical data with spatial visualisation in QGIS.
 
-Got it ✅
-Let’s create a **GitHub-ready project structure** and write a simple, clear explanation of everything — dataset, code, PCA+KMeans results, QGIS map — so it looks professional but easy to understand.
-
----
-
-## **📂 Project Structure**
-
-```
-geochem-clustering/
-│
-├── data/
-│   ├── geochem_raw.csv          # Original dataset
-│   ├── geochem_clusters.csv     # Final processed dataset with clusters
-│
-├── notebooks/
-│   ├── geochem_analysis.ipynb   # All preprocessing, PCA, and KMeans code
-│
-├── qgis/
-│   ├── geochem_clusters.qgz     # QGIS project file
-│   ├── cluster_map.png          # Exported cluster map
-│
-├── README.md                    # Project documentation
-└── requirements.txt             # Python dependencies
-```
-
 ---
 
 ## **README.md (Example for GitHub)**
@@ -147,16 +122,6 @@ When plotted on a map:
 * **Exploration Targeting**: Clusters with high Au & As can be prioritised for gold exploration.
 * **Geological Mapping**: Helps distinguish lithological units with similar chemistry.
 * **Anomaly Detection**: Isolates unusual samples that don’t match background geochemistry.
-
----
-
-This structure makes your results **look professional, geologically meaningful, and data-science-focused** — perfect for both recruiters and IIRS evaluators.
-
----
-
-If you want, I can now **add plots** (scatter, heatmap, map) into this README so your GitHub page also has visuals — which will make it stand out even more.
-
-Do you want me to prepare that enhanced README with visuals?
 
 ---
 
