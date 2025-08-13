@@ -3,7 +3,6 @@ PCA + KMeans clustering of geochemical data with spatial visualisation in QGIS.
 
 ---
 
-## **README.md (Example for GitHub)**
 
 # 🌍 Geochemical Data Clustering with PCA & QGIS Mapping 
 
