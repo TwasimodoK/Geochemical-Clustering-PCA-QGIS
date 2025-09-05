@@ -61,15 +61,15 @@ You can explore and access the dataset via the USGS ScienceBase portal.
 ---
 
 
-After processing, the dataset was reduced from **N elements** (replace N) to **2 principal components** (PC1 & PC2) using PCA, while retaining **XX% of the variance**.
-This means that **XX% of the original information in the dataset is preserved** in our 2D plots.
+After processing, the dataset was reduced from **N elements** (replace N) to **2 principal components** (PC1 & PC2) using PCA, while retaining **55% of the variance**.
+This means that **55% of the original information in the dataset is preserved** in our 2D plots.
 
 ---
 
 ### **1. PCA Variance Retention**
 
-* **PC1** explained **X%** of the variance — strongly influenced by elements like Fe, Mn, and Mg.
-* **PC2** explained **Y%** of the variance — more associated with elements like Au, As, and Pb.
+* **PC1** explained **35.2%** of the variance — strongly influenced by elements like Fe, Mn, and Mg.
+* **PC2** explained **20.1%** of the variance — more associated with elements like Au, As, and Pb.
 * These principal components act as “summary axes” that capture the most important differences between samples.
 
 ---
