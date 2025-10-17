@@ -61,7 +61,7 @@ You can explore and access the dataset via the USGS ScienceBase portal.
 ---
 
 
-After processing, the dataset was reduced from **N elements** (replace N) to **2 principal components** (PC1 & PC2) using PCA, while retaining **55% of the variance**.
+After processing, the dataset was reduced from **N elements**  to **2 principal components** (PC1 & PC2) using PCA, while retaining **55% of the variance**.
 This means that **55% of the original information in the dataset is preserved** in our 2D plots.
 
 ---
