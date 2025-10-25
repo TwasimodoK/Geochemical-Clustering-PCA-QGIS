@@ -75,7 +75,7 @@ This means that **55% of the original information in the dataset is preserved** 
 ---
 
 ### **2. KMeans Clustering Outcomes**
-<img width="839" height="684" alt"Screenshot 2025-10-26 022811" src="https://github.com/user-attachments/assets/24ec512d-a17f-4a22-9952-2d5724874e69"/>
+<img width="813" height="603" alt="Screenshot 2025-10-26 022811" src="https://github.com/user-attachments/assets/6723136a-d7e3-45f5-a743-0d6702faf25e" />
 
 
 <img width="856" height="501" alt="Screenshot 2025-08-14 021938" src="https://github.com/user-attachments/assets/dd8f2e10-c1d4-4e0d-93fc-0be75bbb7de9" />
