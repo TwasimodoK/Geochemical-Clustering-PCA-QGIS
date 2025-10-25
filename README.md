@@ -61,21 +61,22 @@ You can explore and access the dataset via the USGS ScienceBase portal.
 ---
 
 
-After processing, the dataset was reduced from **N elements**  to **2 principal components** (PC1 & PC2) using PCA, while retaining **55% of the variance**.
+After processing, the dataset was reduced from **N elements**  to **2 principal components** (PC1 & PC2) using PCA, while retaining **21.58% of the variance**.
 This means that **55% of the original information in the dataset is preserved** in our 2D plots.
 
 ---
 
 ### **1. PCA Variance Retention**
 
-* **PC1** explained **35.2%** of the variance — strongly influenced by elements like Fe, Mn, and Mg.
-* **PC2** explained **20.1%** of the variance — more associated with elements like Au, As, and Pb.
+* **PC1** explained **12.9%** of the variance — strongly influenced by elements like Fe, Mn, and Mg.
+* **PC2** explained **8.64%** of the variance — more associated with elements like Au, As, and Pb.
 * These principal components act as “summary axes” that capture the most important differences between samples.
 
 ---
 
 ### **2. KMeans Clustering Outcomes**
-<img width="839" height="684" alt="Screenshot 2025-08-14 021910" src="https://github.com/user-attachments/assets/804a521f-57be-4400-8e39-ca491df82418" />
+<img width="839" height="684" alt="<img width="813" height="603" alt="Screenshot 2025-10-26 022811" src="https://github.com/user-attachments/assets/24ec512d-a17f-4a22-9952-2d5724874e69" />
+" />
 
 
 <img width="856" height="501" alt="Screenshot 2025-08-14 021938" src="https://github.com/user-attachments/assets/dd8f2e10-c1d4-4e0d-93fc-0be75bbb7de9" />
