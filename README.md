@@ -181,3 +181,11 @@ Clusters are displayed with unique colors, highlighting anomalous zones potentia
 * Combine with geological layers for interpretation
 * Automate map export from Python to QGIS
 
+  ---
+  Referecences
+* Sadeghi, M., … (2024). Principal components analysis and K-means clustering of till geochemical data…
+
+* Jansson, N.F., … (2022). Principal component analysis and K-means clustering as tools during exploration for Zn-skarn deposits…
+
+* Hajihosseinlou, M., Maghsoudi, A., & Ghezelbash, R. (2024). Geochemical anomaly detection and pattern recognition: A combined study of the Apriori algorithm, PCA and spectral clustering.
+
