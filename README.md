@@ -75,8 +75,7 @@ This means that **55% of the original information in the dataset is preserved** 
 ---
 
 ### **2. KMeans Clustering Outcomes**
-<img width="839" height="684" alt="<img width="813" height="603" alt="Screenshot 2025-10-26 022811" src="https://github.com/user-attachments/assets/24ec512d-a17f-4a22-9952-2d5724874e69" />
-" />
+<img width="839" height="684" alt"Screenshot 2025-10-26 022811" src="https://github.com/user-attachments/assets/24ec512d-a17f-4a22-9952-2d5724874e69"/>
 
 
 <img width="856" height="501" alt="Screenshot 2025-08-14 021938" src="https://github.com/user-attachments/assets/dd8f2e10-c1d4-4e0d-93fc-0be75bbb7de9" />
@@ -134,7 +133,8 @@ When plotted on a map:
 
 ## 🗺 Geospatial Visualization & QGIS Integration
 
-<img width="1062" height="439" alt="Screenshot 2025-08-14 031537" src="https://github.com/user-attachments/assets/69f173a9-aa1a-48f4-9953-bcac4f89ea43" />
+<img width="1241" height="391" alt="Screenshot 2025-10-26 022834" src="https://github.com/user-attachments/assets/9abe299e-ec17-437f-9c86-4891a11f0223" />
+" />
 
 
 After performing **PCA** and **K-Means clustering** on the geochemical dataset, results were mapped to geographic coordinates (Latitude, Longitude) using **GeoPandas** and **Shapely**.
